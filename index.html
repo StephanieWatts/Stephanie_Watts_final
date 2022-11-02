@@ -39,7 +39,7 @@ img {margin-bottom: -7px}
     <h1><b>STEPHANIE WATTS Modeling</b></h1>
     <p><b>Alias Danielle</b></p>
     <p><b>I am a published freelance model who loves to travel the world. I specialize in outdoor, fitness, creative, and boudior. Contact me and lets create! </b></p>
-    <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+    <p class="w3-padding-16"><button class="w3-button w3-black" onclick="toggleGridPadding()">Toggle Grid Padding</button></p>
   </header>
 </div>
 </div>
@@ -102,7 +102,7 @@ img {margin-bottom: -7px}
  
 <script>
 // Toggle grid padding
-function myFunction() {
+function toggleGridPadding() {
   var x = document.getElementById("myGrid");
   if (x.className === "w3-row") {
     x.className = "w3-row-padding";
